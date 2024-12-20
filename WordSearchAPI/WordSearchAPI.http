@@ -1,0 +1,8 @@
+@WordSearchAPI_HostAddress = http://localhost:5199
+
+### SearchName POST request
+POST {{WordSearchAPI_HostAddress}}/WordSearch/contieneNombre
+Content-Type: application/json
+
+### ObtenerReporte GET request
+GET {{WordSearchAPI_HostAddress}}/WordSearch/reporte
