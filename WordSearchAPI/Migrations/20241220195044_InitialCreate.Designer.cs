@@ -12,7 +12,7 @@ using WordSearchAPI.Data;
 namespace WordSearchAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241220191630_InitialCreate")]
+    [Migration("20241220195044_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
