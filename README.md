@@ -22,7 +22,7 @@ WordSearchAPI es una API que permite buscar palabras en una sopa de letras y reg
     ```json
     {
         "ConnectionStrings": {
-            "DefaultConnection": "Server=127.0.0.1:3306;Database=word_search;User=root;Password=tu-contraseña;"
+            "DefaultConnection": "Server=127.0.0.1;Port=3306;Database=word_search;User=root;Password=tu-contraseña;"
         }
     }
     ```
@@ -36,7 +36,6 @@ WordSearchAPI es una API que permite buscar palabras en una sopa de letras y reg
 4. Aplica las migraciones para crear y actualizar el esquema de la base de datos:
 
     ```bash
-    dotnet ef migrations add InitialCreate
     dotnet ef database update
     ```
 
