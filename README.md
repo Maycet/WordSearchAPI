@@ -86,7 +86,7 @@ Obtiene un reporte de las búsquedas realizadas.
 }
 ```
 
-## Método contieneNombre
+## Método contieneNombre (encargado de buscar palabras en la sopa de letras)
 
 El método `contieneNombre` de la clase `WordSearchManager` busca una palabra en una sopa de letras. La sopa de letras se representa como un arreglo de cadenas (`string[]`), y la palabra a buscar es una cadena (`string`).
 
@@ -143,6 +143,13 @@ public bool contieneNombre(string[] info, string nombre)
 }
 ```
 
+## Otros Recursos
+
+### Base de datos
+
+Es importante mencionar que el motor de base de datos para el que está destinada la configuración de la API es MySql, por lo que, al ejecutar las migraciones del proyecto se debería contar con un servidor para este motor.
+
+Si no se desean ejecutar las migraciones para actualización de base de datos desde el proyecto de Web API .NET, es posible simplemente importar el backup de base de datos que se encuentra en la carpeta *OtherResources* directamente en el cliente que se tenga para el servidor de MySQL.
 
 ## Licencia
 
